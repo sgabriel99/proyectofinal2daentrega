@@ -1,0 +1,179 @@
+*{padding: 0px;margin: 0px;box-sizing: border-box;}
+.imagenFondo{background-image:linear-gradient(to bottom, rgb(220, 200, 200), rgb(36, 36, 31)) ;
+}
+.tituloIndex{
+     color: rgb(94, 112, 112) ;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-align: center;
+}
+
+
+
+.imagenesIndex{
+     display: flex;
+     height: 1500%;
+     justify-content: space-around;
+     margin-top: 25px;
+         
+}
+.somosRepre{text-align: center;
+            color: rgb(29, 29, 68);
+        
+}
+.atencion{color: rgb(255, 255, 255);
+          font-size: 10x;
+          background-image: linear-gradient(to bottom,rgb(236, 199, 199),rgb(14, 14, 4));
+          list-style: none;
+          height: 80px;
+          width: 380px;
+          
+          
+    
+}
+
+.efectoImagenes:hover{transform: scale(1.2);}
+
+      
+.encabezadoFondo{background-image:url(../imagenes/imagenfondo5.jpg)}
+
+.encabezado{position: sticky;top: 0;
+            
+        
+}
+
+
+.tituloHerramientas{font-size: 20px;
+                    margin-left: 40px;
+}
+
+.imgHerramientas{display: grid;
+                 grid-template-columns: 200px 200px  200px 200px;
+                 grid-template-rows: 200px 200px;
+               
+}
+
+.contenedorHerremientasCursos{ display: inline-flex;}
+
+.cursos{margin-left: 150px;
+        display: grid; 
+        grid-template-columns: 200px 200px 200px 200px;
+}
+
+.titulos{display: inline-flex;}
+
+.tituloCapacitacines{font-size: 20px;
+                    margin-left: 450px;
+}
+
+.DescripcionCursos{font-size: 18px;
+                   text-align: center;
+}
+
+.relatocurso{display: grid; 
+             grid-template-columns: 800px;
+}
+
+.tituloPiletas{text-align: center; 
+               margin-top: 35px;
+}
+
+.piletas{display: flex; 
+         margin-top: 40px;
+}
+
+.pileLimpia{margin-left:100px;}
+
+.productosPileta{display: grid;
+                 grid-template-columns: 200px 200px 200px 200px;
+                 grid-template-rows: 200px 200px;
+}
+
+.textoPileta{font-size: 25px; 
+             padding: 15px;
+             background-image: linear-gradient(to bottom, rgb(144, 143, 139),rgb(99, 99, 94));
+             border-radius: 15px;
+}
+
+.nuestrosCliente{ display:flex ; 
+                  justify-content: space-around;
+                  margin-top: 25px;
+}
+
+.pieDepagina{margin-top: 35px;
+             list-style: none ; 
+             text-decoration: none;
+             color:rgb(37, 37, 249);
+}
+
+.legales{font-size: 15px;
+         background-color: brown;
+         padding: 35px;
+         border-radius: 25px; 
+         margin: 25px;
+}
+
+.video{margin: 25px;}
+
+.FormContacto{background-image: linear-gradient(to bottom,red,yellow);}
+
+.imgElectrico{display: grid;
+              grid-template-columns: 200px 200px 200px 200px;
+              grid-template-rows: 200px 200px ;               
+}
+
+.bodyFerre{background-image:linear-gradient(to bottom, rgb(228, 212, 212), rgb(18, 18, 8)) }
+
+.imgPlomeria{display: grid;
+             grid-template-columns: 200px 200px 200px 200px;
+             grid-template-rows: 200px 200px ;
+             margin-left: 200px;
+}
+
+.imgElePlo{display:flex;}
+
+.titulosFerre{display:flex;}
+
+.tituloMatplo{margin-left: 620px;}
+
+.tituloMatele{margin-left: 200px;}
+.historiaFerreteria{background-color: bisque;
+                    padding: 25px;
+                    margin: 35px;
+                    border-radius: 35px;
+}
+.imgNosotros{display: flex;
+             justify-content: space-around;
+}
+
+.fondoSuc{background-image: linear-gradient(rgb(183, 151, 151), rgb(16, 16, 11));}
+
+.imgSuc{display:flex; }
+
+.mapaCuyo{ display: flex; justify-content: center;}
+
+.frentesSuc{display: grid; grid-template-columns: 400px 400px 400px 400px;
+            grid-template-rows: 300px 300px;
+            justify-content: center;
+            margin-top: 45px;
+
+
+}
+
+.titulodSuc{font-size: 25px;
+            text-align: left
+
+}
+
+.TituloPrincipalsuc{font-size: 35px;
+                    text-align: center;
+}
+
+.tituloFlota{font-size: 55px;
+             text-align: center;
+}
+
+.imgFlota{display:flex; justify-content: center;}
+
+.tituloPintura{margin-left: 200px;}
+
+.tituloFerre{margin-left: 820px;}
